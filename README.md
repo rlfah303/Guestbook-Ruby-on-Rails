@@ -18,6 +18,9 @@ Software Engineer<br/>
 <br/>
 
 ## :hammer_and_wrench: 사용된 기술
-> + Ruby on Rails https://rubyonrails.org/
+> + Vue.js https://vuejs.org/
+> + Express https://expressjs.com/
+> + MongoDB https://www.mongodb.com/
+> + Axios https://axios-http.com/
 
 <br/>
