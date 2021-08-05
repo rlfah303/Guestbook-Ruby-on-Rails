@@ -18,8 +18,8 @@ Software Engineer<br/>
 <br/>
 
 ## :hammer_and_wrench: 사용된 기술
-> + Java [[Download](https://www.java.com/en/download/manual.jsp)]
-> + IntelliJ [[Download](https://www.jetbrains.com/idea/download)] (you may use other editors)
+> + Ruby on Rails https://rubyonrails.org/
+
 <br/>
 
 ## :foggy: Background
