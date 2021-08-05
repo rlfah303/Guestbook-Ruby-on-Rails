@@ -17,7 +17,7 @@ Software Engineer<br/>
 </p>
 <br/>
 
-## :hammer_and_wrench: System Requirement
+## :hammer_and_wrench: 사용된 기술
 > + Java [[Download](https://www.java.com/en/download/manual.jsp)]
 > + IntelliJ [[Download](https://www.jetbrains.com/idea/download)] (you may use other editors)
 <br/>
@@ -30,26 +30,7 @@ Software Engineer<br/>
 
 ## :page_with_curl: Instructions
 - 원하는 주식을 추가하는 기능
-- 원하는 주식도 삭제하는 기능
-- 실시간 업데이트 기능
-- 리셋 기능
-- 자세히 보기 기능
 
-1.원하는 주식을 추가 할 수 있다.<br/> 
-
-![11](https://user-images.githubusercontent.com/59432666/114690275-3dceb200-9cb2-11eb-9c54-42dcba29e618.jpg)
-
-2. 원하는 주식을 목록에서 삭제 할 수 있다<br/>
-![22](https://user-images.githubusercontent.com/59432666/114690288-40310c00-9cb2-11eb-9dc2-415eb792e796.jpg)
-
-3. ENTER를 누르면 market hours때 실시간 업데이트가 가능하다<br/>
-![33](https://user-images.githubusercontent.com/59432666/114690303-42936600-9cb2-11eb-88cf-d33e43c76861.jpg)
-
-4. 모든 정보를 지우고 다시 시작하기 가능<br/>
-![44](https://user-images.githubusercontent.com/59432666/114690340-4b843780-9cb2-11eb-91f3-881c6a1cc825.jpg)
-
-5. 해당하는 주식을선택하면 정보를 자세히 볼 수있다.<br/>
-![55](https://user-images.githubusercontent.com/59432666/114690364-5212af00-9cb2-11eb-9424-542c85d62514.jpg)
 
 
 ## :sparkler: Future Work
