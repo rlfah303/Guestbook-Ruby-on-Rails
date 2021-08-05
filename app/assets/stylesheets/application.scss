@@ -1,0 +1,16 @@
+@import "bootstrap/scss/bootstrap";
+@import "home";
+@import "guestbooks";
+@import "comments";
+@import "rails_bootstrap_forms";
+
+
+body {
+  padding-top: 5rem;
+}
+
+h1{
+    text-align: center;
+    color: #8B0000;
+}
+

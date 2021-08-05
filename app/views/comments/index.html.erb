@@ -1,0 +1,5 @@
+<% title @guestbook.title %>
+
+<%= render @comments %>
+
+<%= link_to "New Comment", new_guestbook_comment_path(@guestbook), class: "btn btn-primary" %>

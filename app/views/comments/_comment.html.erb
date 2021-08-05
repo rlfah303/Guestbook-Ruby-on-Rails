@@ -1,0 +1,5 @@
+<div id ="comment_<%= comment.id %>" class = "comment">
+    <p><strong> Name: </strong> <%= link_to_unless_current comment.name, guestbook_comment_path(@guestbook,comment) %></p>
+    <p><%= comment.body %></p>
+</div>
+    

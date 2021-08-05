@@ -1,0 +1,8 @@
+<% title "Guestbooks" %>
+
+<%= render @guestbooks %>
+
+<%= link_to "New Guestbook", new_guestbook_path, class: "btn btn-primary" %>
+
+<%= will_paginate @guestbooks, renderer: BootstrapPagination::Rails %>
+

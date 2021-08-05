@@ -1,0 +1,143 @@
+[33mcommit 9324d6c22772f47e93a6b4402ad4b00f2cb9d927[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Thu Nov 12 06:07:50 2020 +0000
+
+    login without password for github account
+
+[33mcommit 45a07b30ebf10421aaea876eafab57c85854d51e[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Thu Nov 12 05:56:23 2020 +0000
+
+    show sigh up form without password
+
+[33mcommit a7b378c40536696bcabe02766fa17b7b29a7000e[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Thu Nov 12 05:22:20 2020 +0000
+
+    add authentication controller
+
+[33mcommit af22556d31fa1b4295e36d8daef139501e7a5c58[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Thu Nov 12 05:03:08 2020 +0000
+
+    install OmniAuth
+
+[33mcommit 2597b07afe48d51243007c7ccc46b64760ffc62c[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Mon Nov 2 07:40:49 2020 +0000
+
+    edit user information
+
+[33mcommit 8125d651354b3af1977da176ea80416945d2a612[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Nov 1 18:08:19 2020 +0000
+
+    redirect users to protected page
+
+[33mcommit d01265d05c16ef1805b2af46cef50c8a11b5bde5[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Nov 1 17:57:17 2020 +0000
+
+    associate user and guestbooks
+
+[33mcommit 16728872317b071422c8c8f5280cf684080c65da[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Nov 1 17:32:37 2020 +0000
+
+    authorize pages for logged in users
+
+[33mcommit 483e904b2dd7181748ac60cfdff45f0814e04dc9[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Nov 1 12:50:37 2020 +0000
+
+    enable log in/out method
+
+[33mcommit e531c096783116912849403311246f52b525fb0e[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Nov 1 11:50:38 2020 +0000
+
+    add user controller and a form
+
+[33mcommit d743af489b3ae9977ef30a897383594e4e820675[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Nov 1 11:36:22 2020 +0000
+
+    add user model
+
+[33mcommit 3e3bb788208c5ea0b8d08bee40a55827a6a8f79f[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Oct 18 12:44:14 2020 +0000
+
+    enable edit and delete method
+
+[33mcommit 8632d8e8e79fdf044adcb2645719ff43abd669db[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Oct 18 11:29:14 2020 +0000
+
+    create a new comment
+
+[33mcommit 15dd26509dab58e2700a1c7a6aa6226200c9199a[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Oct 18 11:20:24 2020 +0000
+
+    connect comments to a guestbook
+
+[33mcommit 8296a0d20be88c9a31624a7f6c7f22cb6f5a5d6a[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Oct 18 11:11:37 2020 +0000
+
+    connect comments to a guestbook
+
+[33mcommit f2f388e0597d186296a988eda66e657619565a4c[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Oct 18 10:35:44 2020 +0000
+
+    add Comment model
+
+[33mcommit 4dbe328789c1997a53d239087dbca7dce2f18263[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Sun Oct 11 09:01:28 2020 +0000
+
+    add two bootstrap features
+
+[33mcommit 496e59d1d9059c2215dc05b620f883b6565638e9[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Fri Oct 9 08:19:41 2020 +0000
+
+    add comments on RESTful methods
+
+[33mcommit f5698ca00a5d17b79ab5efabdcf2072fcdc88150[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Fri Oct 9 08:01:44 2020 +0000
+
+    enable delete and edit function
+
+[33mcommit af1499b574f216a01ecffa70f1a1b9bbf2c927e4[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Fri Oct 9 07:19:01 2020 +0000
+
+    add create and get controller
+
+[33mcommit 8b29823e48d74c3d868494a846fab8fe745fea43[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Fri Oct 9 05:17:47 2020 +0000
+
+    add a guestbook model
+
+[33mcommit 8b3862d73ad7fb6730ce611737e757a3a2643bda[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Thu Oct 8 16:04:12 2020 +0000
+
+    create about page
+
+[33mcommit ec23d14845bfdd1054b48eb49192f55291a2918d[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Thu Oct 8 15:07:21 2020 +0000
+
+    set up template for Bootstrap
+
+[33mcommit 2ee063551b850b3b5a831c488bb77cccc8aee7fa[m
+Author: Ubuntu <ubuntu@ip-172-31-56-222.ec2.internal>
+Date:   Thu Oct 8 14:34:34 2020 +0000
+
+    install boostraps

@@ -1,0 +1,11 @@
+<% title "Guestbook" %>
+
+<% if @guestbook.image.attached? %>
+    <%= image_tag @guestbook.image, style: "width: 200px; display: block" %>
+<% end %>
+<%= render @guestbook %>
+
+<%= link_to "Comments", guestbook_comments_path(@guestbook) %>|
+<%= link_to "Edit", edit_guestbook_path(@guestbook) %>|
+<%= link_to "Delete", @guestbook, method: :delete, data: {confirm: "Are you sure?"} %>|
+<%= link_to "All Guestbooks", guestbooks_path %>

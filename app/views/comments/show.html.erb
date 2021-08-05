@@ -1,0 +1,8 @@
+<% title @comment.name %>
+
+<%= render @comment %>
+ 
+<%= link_to "Comments", guestbook_comments_path(@guestbook) %> | 
+<%= link_to "Edit", edit_guestbook_comment_path(@guestbook,@comment) %>|
+<%= link_to "Delete", guestbook_comment_path(@guestbook,@comment), method: :delete, data: {confirm: "Are you sure?"} %>|
+<%= link_to "All Comments", guestbook_comments_path(@guestbook) %>

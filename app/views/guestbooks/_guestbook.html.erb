@@ -1,0 +1,7 @@
+<div id ="guestbook_<%= guestbook.id %>" class="guestbook">
+        
+        <p><strong>Title:</strong> <%= link_to_unless_current guestbook.title, guestbook %></p>
+        <p><strong>Content:</strong> <%= guestbook.content %></p>
+        <p><strong>Date:</strong> <%= guestbook.date %></p>
+ </div>
+ 
