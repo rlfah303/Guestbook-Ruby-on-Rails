@@ -24,42 +24,42 @@ Software Engineer<br/>
 
   * Model: Model을 통한 데이터 Association 및 Validation
   
-  ```ruby   
-    class Guestbook < ApplicationRecord
-      has_many :comments  
-      belongs_to :user
-      has_one_attached :image
-      validates :title, presence: true
-    end
-  ```
+   ```ruby   
+     class Guestbook < ApplicationRecord
+       has_many :comments  
+       belongs_to :user
+       has_one_attached :image
+       validates :title, presence: true
+     end
+   ```
   <br/>
   
   * View: erb(embedded)를 사용 render & yield를 이용한 코드 반복을 줄임
   
-  index.rb
+   index.rb
 
-  ```ruby 
-    <% title "Guestbooks" %>
-    <%= render @guestbooks %>
-    <%= link_to "New Guestbook", new_guestbook_path, class: "btn btn-primary" %>  
-  ```
-  
-  <br/>
-  _guestbook.html.erb
-  
-  ```ruby 
-    <div id ="guestbook_<%= guestbook.id %>" class="guestbook">
-        <p><strong>Title:</strong> <%= link_to_unless_current guestbook.title, guestbook %></p>
-        <p><strong>Content:</strong> <%= guestbook.content %></p>
-        <p><strong>Date:</strong> <%= guestbook.date %></p>
-    </div>
-  ```
-  <br/>
-  application.html.erb
-  
-  ```ruby 
-    <%= yield %>
-  ```
+   ```ruby 
+     <% title "Guestbooks" %>
+     <%= render @guestbooks %>
+     <%= link_to "New Guestbook", new_guestbook_path, class: "btn btn-primary" %>  
+   ```
+
+   <br/>
+   _guestbook.html.erb
+
+   ```ruby 
+     <div id ="guestbook_<%= guestbook.id %>" class="guestbook">
+         <p><strong>Title:</strong> <%= link_to_unless_current guestbook.title, guestbook %></p>
+         <p><strong>Content:</strong> <%= guestbook.content %></p>
+         <p><strong>Date:</strong> <%= guestbook.date %></p>
+     </div>
+   ```
+   <br/>
+   application.html.erb
+
+   ```ruby 
+     <%= yield %>
+   ```
  
 
 ## :hammer_and_wrench: 사용된 기술
