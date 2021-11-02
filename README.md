@@ -24,8 +24,6 @@ Software Engineer<br/>
   * Model: Model을 통한 데이터 Association 및 Validation
   <br/>
   
-  <img width="119" alt="Screen Shot 2021-11-02 at 3 16 21 PM" src="https://user-images.githubusercontent.com/59432666/139795640-782c6cec-8c65-43d3-b963-65e4c55358fc.png">
-  
   ```ruby   
     class Guestbook < ApplicationRecord
       has_many :comments  
@@ -46,6 +44,17 @@ Software Engineer<br/>
     <%= link_to "New Guestbook", new_guestbook_path, class: "btn btn-primary" %>
     
   ```
+  <br/>
+  <img width="154" alt="Screen Shot 2021-11-02 at 3 30 53 PM" src="https://user-images.githubusercontent.com/59432666/139797215-c67c8723-b1b2-4ccd-a432-936adc1eb234.png">
+
+  ```ruby 
+    <div id ="guestbook_<%= guestbook.id %>" class="guestbook">
+        <p><strong>Title:</strong> <%= link_to_unless_current guestbook.title, guestbook %></p>
+        <p><strong>Content:</strong> <%= guestbook.content %></p>
+        <p><strong>Date:</strong> <%= guestbook.date %></p>
+    </div>
+  ```
+ 
 
 ## :hammer_and_wrench: 사용된 기술
 > + Ruby on Rails https://rubyonrails.org/
