@@ -32,11 +32,11 @@ Software Engineer<br/>
       validates :title, presence: true
     end
   ```
-  * View: render을 이용한 코드 재사용
+  * View: erb(embedded)를 사용 render & yield를 이용한 코드 반복을 줄임
 
   <br/>
-  <img width="121" alt="Screen Shot 2021-11-02 at 3 24 00 PM" src="https://user-images.githubusercontent.com/59432666/139796489-7a64e65b-220a-4239-bfae-d251ec799bad.png">
-   
+
+  index.rb
   ```ruby 
     <% title "Guestbooks" %>
     <%= render @guestbooks %>
@@ -44,8 +44,7 @@ Software Engineer<br/>
     
   ```
   <br/>
-  <img width="154" alt="Screen Shot 2021-11-02 at 3 30 53 PM" src="https://user-images.githubusercontent.com/59432666/139797215-c67c8723-b1b2-4ccd-a432-936adc1eb234.png">
-
+  _guestbook.html.erb
   ```ruby 
     <div id ="guestbook_<%= guestbook.id %>" class="guestbook">
         <p><strong>Title:</strong> <%= link_to_unless_current guestbook.title, guestbook %></p>
