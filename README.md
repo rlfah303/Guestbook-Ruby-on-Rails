@@ -23,19 +23,17 @@ Software Engineer<br/>
 - MVC 구조
   * Model
   <img width="119" alt="Screen Shot 2021-11-02 at 3 16 21 PM" src="https://user-images.githubusercontent.com/59432666/139795640-782c6cec-8c65-43d3-b963-65e4c55358fc.png">
-  ```Ruby
-    guestbook.rb
-    
+  
+  ```ruby   
     class Guestbook < ApplicationRecord
       has_many :comments  
       belongs_to :user
       has_one_attached :image
       validates :title, presence: true
     end
-
   ```
   * View
-   ```Ruby 
+   ```ruby 
     class Guestbook < ApplicationRecord
       has_many :comments  
       belongs_to :user
