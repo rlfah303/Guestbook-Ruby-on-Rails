@@ -79,7 +79,7 @@ Software Engineer<br/>
 <br/>
 <br/>
 2. bootstrap를 사용해 form, pagination 기능 활용
-<br/>
+  <br/>
   _form.html.erb
   
    ```ruby
