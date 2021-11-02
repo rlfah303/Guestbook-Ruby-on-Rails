@@ -106,6 +106,7 @@ Software Engineer<br/>
    ```ruby
    <%= will_paginate @guestbooks, renderer: BootstrapPagination::Rails %>
    ```
+<br/>
 
 
 3. Oauth 2.0
