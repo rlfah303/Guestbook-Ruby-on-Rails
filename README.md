@@ -22,7 +22,6 @@ Software Engineer<br/>
 
 - MVC 구조
   * Model: Model을 통한 데이터 Association 및 Validation
-  <br/>
   
   ```ruby   
     class Guestbook < ApplicationRecord
@@ -32,10 +31,8 @@ Software Engineer<br/>
       validates :title, presence: true
     end
   ```
-  * View: erb(embedded)를 사용 render & yield를 이용한 코드 반복을 줄임
-
   <br/>
-
+  * View: erb(embedded)를 사용 render & yield를 이용한 코드 반복을 줄임
   index.rb
   ```ruby 
     <% title "Guestbooks" %>
