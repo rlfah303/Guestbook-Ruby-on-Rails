@@ -36,7 +36,7 @@ Software Engineer<br/>
   
   - View: erb(embedded)를 사용 render & yield를 이용한 코드 반복을 줄임
   
-   index.rb
+   index.html.rb
 
    ```ruby 
      <% title "Guestbooks" %>
