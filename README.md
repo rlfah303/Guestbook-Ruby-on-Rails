@@ -19,7 +19,16 @@ Software Engineer<br/>
 
 ## 💻: Code
 - MVC 구조
-  * M
+  * Model
+  ```Ruby 
+    class Guestbook < ApplicationRecord
+      has_many :comments  
+      belongs_to :user
+      has_one_attached :image
+      validates :title, presence: true
+    end
+
+  ```
 
 ## :hammer_and_wrench: 사용된 기술
 > + Ruby on Rails https://rubyonrails.org/
