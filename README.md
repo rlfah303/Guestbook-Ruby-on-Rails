@@ -18,7 +18,8 @@ Software Engineer<br/>
 <br/>
 
 ## 💻: Code
-
+- MVC 구조
+  * M
 
 ## :hammer_and_wrench: 사용된 기술
 > + Ruby on Rails https://rubyonrails.org/
