@@ -106,6 +106,15 @@ Software Engineer<br/>
    ```ruby
    <%= will_paginate @guestbooks, renderer: BootstrapPagination::Rails %>
    ```
+ 
+3. Oauth 2.0
+
+  omniauth.rb
+   ```ruby
+   Rails.application.config.middleware.use OmniAuth::Builder do
+    provider :github, "my id", "secret"
+   end
+   ``` 
 
 ## :hammer_and_wrench: 사용된 기술
 > + Ruby on Rails https://rubyonrails.org/
