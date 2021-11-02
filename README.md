@@ -2,7 +2,7 @@
 # <p align="center"> Guestbook</p>
 
 <p>
-본 저장소에는 Ruby on Rails를 사용한 간단한 방명록 남기기 페이지입니다. MVC 구조와 REST API를 이용한 CRUD 기능을 구현했습니다.
+본 저장소에는 Ruby on Rails를 사용한 간단한 방명록 남기기 페이지입니다. MVC 구조와 REST API를 이용한 CRUD 기능을 구현했습니다. bootstrap기능 및 Oauth 2.0를 통한 github login기능도 구현하였습니다.
 </p>
 <br/>
 
