@@ -110,7 +110,7 @@ Software Engineer<br/>
 
 3. Oauth 2.0
   
-  <br/>omniauth.rb
+  omniauth.rb
    ```ruby
    Rails.application.config.middleware.use OmniAuth::Builder do
     provider :github, "my id", "secret"
