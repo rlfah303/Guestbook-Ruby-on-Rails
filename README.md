@@ -60,6 +60,21 @@ Software Engineer<br/>
    ```ruby 
      <%= yield %>
    ```
+  
+  * Controller: controller를 통한 action 명령
+  
+   guestbooks_controller.rb
+  ```ruby 
+     def create
+      @guestbook =Guestbook.new guestbook_params
+      @guestbook.user =current_user
+      if @guestbook.save
+        redirect_to guestbooks_path, notice: "Guestbook Created"
+      else
+        render :new
+      end
+    end
+   ```
  
 
 ## :hammer_and_wrench: 사용된 기술
