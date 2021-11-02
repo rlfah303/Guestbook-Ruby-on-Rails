@@ -20,9 +20,9 @@ Software Engineer<br/>
 ## 💻: Code
 
 
-- MVC 구조
+1. MVC 구조
 
-  * Model: Model을 통한 데이터 Association 및 Validation
+  - Model: Model을 통한 데이터 Association 및 Validation
   
    ```ruby   
      class Guestbook < ApplicationRecord
@@ -34,7 +34,7 @@ Software Engineer<br/>
    ```
   <br/>
   
-  * View: erb(embedded)를 사용 render & yield를 이용한 코드 반복을 줄임
+  - View: erb(embedded)를 사용 render & yield를 이용한 코드 반복을 줄임
   
    index.rb
 
@@ -62,7 +62,7 @@ Software Engineer<br/>
    ```
   <br/>
   
-  * Controller: controller를 통한 action 명령
+  - Controller: controller를 통한 action 명령
   
    guestbooks_controller.rb
   ```ruby 
@@ -78,7 +78,7 @@ Software Engineer<br/>
    ```
 <br/>
 <br/>
-- bootstrap를 사용해 form, pagination 기능 활용
+2. bootstrap를 사용해 form, pagination 기능 활용
 
   _form.html.erb
   ```ruby 
