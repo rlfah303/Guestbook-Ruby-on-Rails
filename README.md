@@ -33,14 +33,13 @@ Software Engineer<br/>
       validates :title, presence: true
     end
   ```
-  * View
-   ```ruby 
-    class Guestbook < ApplicationRecord
-      has_many :comments  
-      belongs_to :user
-      has_one_attached :image
-      validates :title, presence: true
-    end
+  * View: render을 이용한 코드 재사용
+   <br/>
+   <img width="121" alt="Screen Shot 2021-11-02 at 3 24 00 PM" src="https://user-images.githubusercontent.com/59432666/139796489-7a64e65b-220a-4239-bfae-d251ec799bad.png">
+  ```ruby 
+    <% title "Guestbooks" %>
+    <%= render @guestbooks %>
+    <%= link_to "New Guestbook", new_guestbook_path, class: "btn btn-primary" %>
     
   ```
 
