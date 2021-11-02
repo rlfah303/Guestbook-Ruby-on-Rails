@@ -76,31 +76,33 @@ Software Engineer<br/>
       end
     end
    ```
+<br/>
+<br/>
 - bootstrap를 사용해 form, pagination 기능 활용
 
- _form.html.erb
- ```ruby 
-     <%= bootstrap_form_with(model: @guestbook, local: true, layout: :horizontal,
-        label_col: "col-sm-2", control_col: "col-sm-10") do |f| %>
-      <%= f.alert_message "Please fix the errors below", error_summary: false %>
-      <%= f.text_field :title %>
-      <%= f.text_field :content %>
-      <%= f.text_field :date %>
-      <% if @guestbook.image.attached? %>
-        <%= image_tag @guestbook.image, style: "width: 200px; display: block" %>
-      <% end %>
-      <%= f.file_field :image %> 
+  _form.html.erb
+  ```ruby 
+      <%= bootstrap_form_with(model: @guestbook, local: true, layout: :horizontal,
+         label_col: "col-sm-2", control_col: "col-sm-10") do |f| %>
+       <%= f.alert_message "Please fix the errors below", error_summary: false %>
+       <%= f.text_field :title %>
+       <%= f.text_field :content %>
+       <%= f.text_field :date %>
+       <% if @guestbook.image.attached? %>
+         <%= image_tag @guestbook.image, style: "width: 200px; display: block" %>
+       <% end %>
+       <%= f.file_field :image %> 
 
-      <%= f.form_group do %>
-          <%= f.primary @guestbook.persisted? ? "Update Guestbook" : "Create Guestbook" %>
-      <% end %>
-    <% end %>
-   ```
-   index.html.erb
-   
-   ```ruby 
-     <%= will_paginate @guestbooks, renderer: BootstrapPagination::Rails %>
-   ```
+       <%= f.form_group do %>
+           <%= f.primary @guestbook.persisted? ? "Update Guestbook" : "Create Guestbook" %>
+       <% end %>
+     <% end %>
+    ```
+    index.html.erb
+
+    ```ruby 
+      <%= will_paginate @guestbooks, renderer: BootstrapPagination::Rails %>
+    ```
 
 ## :hammer_and_wrench: 사용된 기술
 > + Ruby on Rails https://rubyonrails.org/
