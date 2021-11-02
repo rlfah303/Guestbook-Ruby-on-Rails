@@ -29,6 +29,17 @@ Software Engineer<br/>
     end
 
   ```
+  * View
+   ```Ruby 
+    class Guestbook < ApplicationRecord
+      has_many :comments  
+      belongs_to :user
+      has_one_attached :image
+      validates :title, presence: true
+    end
+    
+  ```
+<img width="648" alt="Screen Shot 2021-11-02 at 3 14 19 PM" src="https://user-images.githubusercontent.com/59432666/139795404-aecb0e6d-c460-4a6b-9544-8a81b85bb2b6.png">
 
 ## :hammer_and_wrench: 사용된 기술
 > + Ruby on Rails https://rubyonrails.org/
