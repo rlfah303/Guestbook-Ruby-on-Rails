@@ -81,6 +81,7 @@ Software Engineer<br/>
 2. bootstrap를 사용해 form, pagination 기능 활용
 <br/>
   _form.html.erb
+  
    ```ruby
     <%= bootstrap_form_with(model: @guestbook, local: true, layout: :horizontal,
            label_col: "col-sm-2", control_col: "col-sm-10") do |f| %>
