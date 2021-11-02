@@ -100,6 +100,7 @@ Software Engineer<br/>
    ```
    
    index.html.erb
+   
    ```ruby
    <%= will_paginate @guestbooks, renderer: BootstrapPagination::Rails %>
    ```
