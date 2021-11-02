@@ -34,14 +34,16 @@ Software Engineer<br/>
   <br/>
   * View: erb(embedded)를 사용 render & yield를 이용한 코드 반복을 줄임
   index.rb
+  
   ```ruby 
     <% title "Guestbooks" %>
     <%= render @guestbooks %>
-    <%= link_to "New Guestbook", new_guestbook_path, class: "btn btn-primary" %>
-    
+    <%= link_to "New Guestbook", new_guestbook_path, class: "btn btn-primary" %>  
   ```
+  
   <br/>
   _guestbook.html.erb
+  
   ```ruby 
     <div id ="guestbook_<%= guestbook.id %>" class="guestbook">
         <p><strong>Title:</strong> <%= link_to_unless_current guestbook.title, guestbook %></p>
