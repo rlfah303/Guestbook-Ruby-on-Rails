@@ -33,7 +33,6 @@ Software Engineer<br/>
     end
   ```
   * View: render을 이용한 코드 재사용
-  * <img width="643" alt="Screen Shot 2021-11-02 at 3 25 09 PM" src="https://user-images.githubusercontent.com/59432666/139797039-154a87b6-005e-4fb7-b0ab-296213d15987.png">
 
   <br/>
   <img width="121" alt="Screen Shot 2021-11-02 at 3 24 00 PM" src="https://user-images.githubusercontent.com/59432666/139796489-7a64e65b-220a-4239-bfae-d251ec799bad.png">
