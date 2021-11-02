@@ -23,6 +23,7 @@ Software Engineer<br/>
 - MVC 구조
   * Model: Model을 통한 데이터 Association 및 Validation
   <br/>
+  
   <img width="119" alt="Screen Shot 2021-11-02 at 3 16 21 PM" src="https://user-images.githubusercontent.com/59432666/139795640-782c6cec-8c65-43d3-b963-65e4c55358fc.png">
   
   ```ruby   
@@ -34,6 +35,8 @@ Software Engineer<br/>
     end
   ```
   * View: render을 이용한 코드 재사용
+  * <img width="643" alt="Screen Shot 2021-11-02 at 3 25 09 PM" src="https://user-images.githubusercontent.com/59432666/139797039-154a87b6-005e-4fb7-b0ab-296213d15987.png">
+
   <br/>
   <img width="121" alt="Screen Shot 2021-11-02 at 3 24 00 PM" src="https://user-images.githubusercontent.com/59432666/139796489-7a64e65b-220a-4239-bfae-d251ec799bad.png">
    
