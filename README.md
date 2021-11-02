@@ -60,7 +60,7 @@ Software Engineer<br/>
    ```ruby 
      <%= yield %>
    ```
-  
+  <br/>
   * Controller: controller를 통한 action 명령
   
    guestbooks_controller.rb
